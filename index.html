@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css"/>
+    <title>Phorm</title>
+</head>
+<body>
+    <!--The stucture of the site should be
+
+        flex container row
+        flex child(flex container column)
+        flex child 
+        flex child (form)(flex container)
+            flex children (input fields)
+
+        flex child
+        flex child
+    -->
+
+    <section class="base-contain">
+        <div class="main-image">
+            <img src="./traveltokyo/masahiro-miyagi-SUE-yUTqn7w-unsplash.jpg" alt="candied tokyo streets" style="width:700px;height:820px;">
+
+        </div>
+
+        <div class="form-section-contain">
+            <article class="hook">This is not a live service. Sign up anyway!</article>
+        
+            <form action="unknown" target="_self" method="post">
+
+                <label for="firstName">first name</label><br>
+                <input type="text" id ="firstName" name = "firstName" required><br>
+
+                <label for="lastName">last name</label><br>
+                <input type="text" id ="lastName" name = "lastName" required><br>
+
+                <label for="email">email</label><br>
+                <input type="email" id ="email" name = "email" required><br>
+
+                <label for="phonenumber">phonenumber</label><br>
+                <input type="tel" id ="phonenumber" name = "phonenumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" placeholder="407-407-4077" required ><br>
+
+                <label for="passworde">password</label><br>
+                <input type="password" id ="password" name = "password" required><br>
+
+                <label for="confirmpassword">confirm password</label><br>
+                <input type="password" id ="confirmpassword" name = "confirmpassword" required><br>
+
+                <input type="submit" value="submit">
+
+
+
+
+            </form>
+            <article class="log-in">Don't have an account yet? Log in</article>
+        
+        
+        </div>
+
+
+
+    </section>
+</body>
+</html>

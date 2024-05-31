@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.base-contain {
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    /*border: 5px solid black;*/
+    height: 100vh;
+
+
+
+}
+
+
+
+.hook {
+    font-size: 2rem;
+    padding: 2rem 1rem 2rem 1rem;
+    border: 5px solid black;
+
+}
+
+
+.log-in {
+    padding: 2rem 1rem 2rem 1rem;
+    border: 5px solid black;
+
+}
+
+form {
+    padding: 0rem 1rem 0rem 1rem;
+    width: 60rem;
+    border: 5px solid black;
+
+
+}
+
+input {
+    margin-bottom: 2rem;
+}
+
+
+
+
+
