@@ -1,2 +1,4 @@
 # frontend-form
-A disply of html form knowledge
+A display of html form knowledge
+Doing this for fun.
+
