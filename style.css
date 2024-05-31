@@ -25,31 +25,37 @@
 
 .hook {
     font-size: 2rem;
-    padding: 2rem 1rem 2rem 1rem;
-    border: 5px solid black;
+    padding: 10rem 1rem 5rem 1rem;
+    /*border: 5px solid black;*/
 
 }
 
 
 .log-in {
-    padding: 2rem 1rem 2rem 1rem;
-    border: 5px solid black;
+    padding: 1rem 1rem 2rem 1rem;
+    /*border: 5px solid black;*/
 
 }
 
 form {
     padding: 0rem 1rem 0rem 1rem;
     width: 60rem;
-    border: 5px solid black;
+    /*border: 5px solid black;*/
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 5vh;
 
 
 }
 
 input {
-    margin-bottom: 2rem;
+    margin-bottom: 3vh;
+    width: 15em;
 }
 
-
+label {
+    text-transform: uppercase;
+}
 
 
 
